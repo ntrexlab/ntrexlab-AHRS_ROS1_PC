@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find stella_mw)/launch/stella_imu.launch">
+		<arg name="serial_dev" defualt="/dev/ttyUSB0"/>
+	</include>
+
+</launch>
